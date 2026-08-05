@@ -93,15 +93,30 @@ The experimental analysis was performed primarily using **Tracker Video Analysis
 ## Repository Structure
 
 ```text
-.
-├── Triboelectric-Sensor/
+├── Triboelectric‑Sensor/
 │   ├── matlab/
+│   │   ├── cleaner.m
+│   │   ├── linearity_analysis.m
+│   │   └── repeatability_analysis.m
 │   ├── data/
+│   │   ├── cleaned/CD
+│   │   └── raw/
+│   │       ├── AB
+│   │       ├── AC
+│   │       ├── AD
+│   │       ├── BC
+│   │       ├── BD
+│   │       ├── CD
+│   │       └── repeatability
 │   ├── figures/
-│   ├── report/
+│   ├── lab‑reports/
+│   │   ├── MLE4228 Lab2 Report Group2.pdf
+│   │   ├── MLE4228 Lab4 Report Group2.pdf
+│   │   └── MLE4228 lab4 presentation.pdf
+│   ├── LICENSE
 │   └── README.md
 │
-├── Thermal-Actuator/
+├── Thermal‑Actuator/
 │   ├── tracker/
 │   ├── figures/
 │   ├── report/
