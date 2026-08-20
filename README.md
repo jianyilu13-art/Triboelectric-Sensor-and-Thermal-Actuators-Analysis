@@ -100,7 +100,9 @@ The experimental analysis was performed primarily using **Tracker Video Analysis
 │   │   └── repeatability_analysis.m
 │   ├── data/
 │   │   ├── cleaned/CD
-|   |   ├── lab4_videos
+|   |   ├── videos_and_images
+│   │   |   ├── videos
+│   │   |   └── lab_images/
 │   │   └── raw/
 │   │       ├── AB
 │   │       ├── AC
